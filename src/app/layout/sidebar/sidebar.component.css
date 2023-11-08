@@ -1,0 +1,21 @@
+ul li{
+    list-style: none;
+    background-color: white;
+    padding: 10px 10px;
+    transition: 0.3s;
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+ul li:hover {
+    background-color: #ddd;
+}
+
+ li:hover{ border-bottom: 0px;}
+ li:first-child { border-left: 10px solid #3498db; }
+ li:nth-child(2) { border-left: 10px solid #ffd071; }
+ li:nth-child(3) { border-left: 10px solid #f0776c; }
+ li:last-child { border-left: 10px solid #1abc9c; }
